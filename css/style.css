@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.carro {
+    border: 1px inset darkgray;
+    padding: 10px;
+    margin: 10px 0;
+    background: whitea;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white;
+}
+
+
+main{
+    background-color:darkgrey;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label{
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+input, textarea{
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+
+}
+
+button{
+    width: 99%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
